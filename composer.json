@@ -1,0 +1,22 @@
+{
+    "name": "envrin/utils",
+    "description": "Miscellaneous utilities used by Apex, please ignore.  Third party scripts / packages that don't exist on packagist, and just used to clean up directory structure.",
+    "keywords": ["apex"],  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Envrin Group",
+            "email": "matt@envrin.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "envrin\\utils\\": "src/"
+        }
+    }
+}
+
